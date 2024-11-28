@@ -1,0 +1,114 @@
+*{
+    padding: none;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+
+}
+.left-section{
+    width: 150px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    position: relative;
+    left: 0px;
+    
+}
+.amazon-logo{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+    
+.amazon-logo-img{
+    width: 100%;
+    
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.input-search{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.input-search input{
+    height: 40px;
+    display: flex;
+    flex: 1;
+    border: none;
+}
+.search-button{
+    height: 43px;
+    margin-left: -1px;
+    margin-top: 1px;
+    border: none;
+    background-color: rgb(255, 196, 3);
+    width: 50px;
+}
+.search-button img{
+    width: 27px;
+    padding-top: 5px;
+}
+.search-and-button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 600px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 5px;
+}
+
+.returns{
+    height: 61px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.returns:hover,
+.cart-button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+.cart-button{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.count{
+    color: rgb(219, 136, 12);
+    position: absolute;
+    left: 52%;
+    top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.search-button:hover{
+    cursor: pointer;
+}
+
